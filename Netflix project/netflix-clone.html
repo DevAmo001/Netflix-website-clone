@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix-Clone</title>
+  <link rel="stylesheet" href="netflix-clone.css">
+  <link rel="stylesheet" href="netflix-clone2.css">
+</head>
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img class="netflix-logo" src="../NETFLIX/logo-2.png">
+    </div>
+    <div class="right-section">
+        <button class="sign-in-button">
+          Sign in
+        </button>
+    </div>
+  </div>
+  <div class="upper-body">
+      <p class="paragraph-1">
+        Unlimited movies&comma;<br><span class="second-line">TV shows&comma; and more</span>
+      </p>
+    <p class="paragraph-2">
+      Starts at Ksh 200&period; Cancel anytime&period;
+    </p>
+    <p class="paragraph-3">
+      Ready to watch&quest; Enter your email to create or restart your membership&period;
+    </p>
+
+    <div class="input-btn">
+      <input class="input-box" type="text" placeholder="Email address">
+      <button class="get-started-btn">
+        Get Started &gt;
+      </button>
+    </div>
+
+  </div>
+
+  <div class="main-mid-container">
+      <p class="trending-now">
+        Trending Now
+      </p>
+      <div class="mid-container">
+        <button onclick="
+          scrollToLeft();
+        " class="scroll-left">
+        <
+        </button>
+        <div class="trending-gallery js-trending-gallary">
+          <img class="image" src="../NETFLIX/template-1-netflix.webp.webp" alt="Image 1">
+          <img class="image" src="../NETFLIX/template-2-netflix.webp.webp" alt="Image 2">
+          <img class="image" src="../NETFLIX/template-3-netflix.webp.webp" alt="Image 3">
+          <img class="image" src="../NETFLIX/template-4-netflix.webp.webp" alt="Image 4">
+          <img class="image" src="../NETFLIX/template-5-netflix.webp.webp" alt="Image 5">
+          <img class="image" src="../NETFLIX/template-6-netflix.webp.webp" alt="Image 6">
+          <img class="image" src="../NETFLIX/template-7-netflix.webp.webp" alt="image 7">
+          <img class="image" src="../NETFLIX/template-8-netflix.webp.webp" alt="Image 8">
+          <img class="image" src="../NETFLIX/template-9-netflix.webp.webp" alt="Image 9">
+          <img class="image" src="../NETFLIX/template-10-netflix.webp.webp" alt="Image 10">
+        </div>
+
+        <button onclick="
+          scrollToRight();
+        " class="scroll-right">
+          >
+        </button>
+      </div>
+
+    <p class="p1">More Reasons to Join</p>
+    <div class="bottom-mid-container">
+      <div class="div-1">
+        <p class="p2">
+          Enjoy on your TV
+        </p>
+        <p class="p3">
+          Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+        </p>
+      </div>
+      <div class="div-2">
+        <p class="p2">
+          Download your shows to watch offline
+        </p>
+        <p class="p3">
+          Save your favourites easily and always have something to watch.
+        </p>
+      </div>
+      <div class="div-3">
+        <p class="p2">
+          Watch everywhere
+        </p>
+        <p class="p3">
+          Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+        </p>
+      </div>
+      <div class="div-4">
+        <p class="p2">
+          Create profiles for kids
+        </p>
+        <p class="p3">
+          Send kids on adventures with their favourite characters in a space made just for them - free with your membership.
+        </p>
+      </div>
+    </div>
+
+    <p class="p1">Frequently Asked Questions</p>
+    <div class="btns">
+      <button><div>What is Netflix</div></button>
+      <button><div>How much does Netflix cost?</div></button>
+      <button><div>Where can I watch?</div></button>
+      <button><div>How do I cancel?</div></button>
+      <button><div>What can I watch on Netflix?</div></button>
+      <button><div>Is Netflix good for kids?</div></button>
+    </div>
+  </div>
+
+  <script src="netflix-clone.js"></script>
+  
+</body>
+</html>

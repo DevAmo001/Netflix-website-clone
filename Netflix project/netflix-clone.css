@@ -1,0 +1,142 @@
+body {
+  background-image: url("../NETFLIX/KE-en-20240520-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.left-section {
+  margin-left: 100px;
+}
+
+.right-section {
+  display: flex;
+  margin-right: 130px;
+}
+
+.netflix-logo {
+  background: transparent;
+  height: 200px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.sign-in-button {
+  margin-right: 20px;
+  width: 95px;
+  height: 36px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(224, 38, 38);
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sign-in-button:hover {
+  background-color: rgb(180, 53, 53);
+}
+
+.sign-in-button:active {
+  background-color: rgb(160, 51, 51);
+}
+
+.upper-body {
+  margin: auto;
+  width: 900px;
+  margin-top: 50px;
+  margin-left: 250px;
+  align-items: center;
+  height: 400px;
+}
+
+.paragraph-1 {
+  color: white;
+  font-size: 47px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 80px;
+}
+
+.paragraph-2 {
+  color: white;
+  font-size: 16px;
+  margin-left: 280px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.paragraph-3 {
+  color: white;
+  font-size: 20px;
+  margin-left: 210px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.second-line {
+  margin-left: -20px;
+}
+
+.input-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  height: 100px;
+}
+
+.input-box {
+  padding: 18px 16px;
+  width: 320px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 150px;
+}
+
+.get-started-btn {
+  background-color: red;
+  padding: 18px 16px;
+  width: 170px;
+  border-style: solid;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.get-started-btn:hover {
+  background-color: rgb(180, 53, 53);
+}
+
+.get-started-btn:active {
+  background-color: rgb(160, 51, 51);
+}
