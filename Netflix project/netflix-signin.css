@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: start;
   width: 460px;
-  height: 650px;
+  height: 575px;
   margin-left: 460px;
   margin-top: 0;
 }
@@ -119,4 +119,45 @@ a {
 .R-M {
   color: white;
   margin-left: 10px;
+  font-family: Arial;
+}
+
+.N-T-N {
+  color: rgb(196, 191, 191);
+  font-family: Arial;
+}
+
+.signup-span {
+  color: white;
+  font-weight: bold;
+}
+
+.signup-span:hover {
+  text-decoration: underline;
+}
+
+.last-pgh {
+  color: rgb(145, 139, 139);
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.L-more {
+  color: rgb(33, 80, 180);
+  cursor: pointer;
+}
+
+.L-more:hover{
+  text-decoration: underline;
+}
+
+.bottom-prt {
+  background-color: black;
+  height: 500px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.new-p {
+  color: rgb(145, 139, 139);
 }
