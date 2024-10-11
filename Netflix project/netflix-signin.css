@@ -1,5 +1,5 @@
 body {
-  background-image: url("../NETFLIX/KE-en-20240520-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-image: url("../NETFLIX/wallpaper-2.jpg");
   height: 1000px;
   margin: 0;
   padding: 0;
@@ -12,10 +12,14 @@ body {
   display: block;
   align-items: center;
   justify-content: start;
-  width: 400px;
-  height: 500px;
-  margin-left: 500px;
-  margin-top: 100px;
+  width: 460px;
+  height: 650px;
+  margin-left: 460px;
+  margin-top: 0;
+}
+
+.contents {
+  padding: 50px 80px;
 }
 
 .F-P {
@@ -37,17 +41,82 @@ body {
   border-radius: 5px;
   padding-left: 10px;
   width: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 17px;
 }
 
-.signin-btn {
+.signin-btn,
+.signin-code {
   margin-right: 20px;
   width: 318px;
-  height: 50px;
+  height: 40px;
   border: none;
   border-radius: 5px;
   background-color: rgb(224, 38, 38);
   font-weight: 700;
   color: white;
   cursor: pointer;
+  font-size: 17px;
+  font-family: Arial;
+}
+
+.signin-code {
+  background-color: rgba(148, 141, 141, 0.425);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.left-section {
+  margin-left: 100px;
+}
+
+.netflix-logo {
+  background: transparent;
+  height: 200px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.or-w {
+  color: rgb(160, 157, 157);
+  font-size: 17px;
+  margin-left: 150px;
+  font-family: Arial;
+}
+
+.F-P {
+  margin-left: 115px;
+  color: rgb(196, 191, 191);
+  text-decoration: none;
+}
+
+.F-P:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bottom-c {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.check-box {
+  background-color: rgba(15, 15, 15, 0.795);
+}
+
+.R-M {
+  color: white;
+  margin-left: 10px;
 }

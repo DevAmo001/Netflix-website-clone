@@ -13,3 +13,9 @@ function scrollToRight() {
     behavior: 'smooth'
   });
 }
+
+function smoothTransition() {
+  const signInButton = document.querySelector('.js-sign-in-button');
+
+  document.body.innerHTML = '';
+}
